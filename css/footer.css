@@ -1,0 +1,73 @@
+footer {
+    width:100%;
+    padding: 25px;
+    padding-bottom: 120px;
+}
+
+footer h2 {
+    font-weight: 600;
+    font-family: 'Montserrat';
+    margin-bottom: .75em;
+}
+
+footer .about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.about .pfp {
+    width: 30%;
+    max-width: 500px;
+    margin-bottom: 40px;
+}
+
+.about .about-txt {
+    width: 70%;
+    max-width: 600px;
+    padding-left: 30px;
+    line-height: 1.6;
+}
+
+footer .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.contact a {
+    display: block;
+    width: 40px;
+    transition: transform .5s ease;
+}
+
+.contact > a:first-child {
+    margin-right: 30px;
+}
+
+.contact > a:last-child {
+    margin-left: 30px;
+}
+
+.contact > a:hover {
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width:640px) {
+    
+    .about .about-txt,
+    .about .pfp {
+        width: 100%;
+        padding: 0;
+    }
+}

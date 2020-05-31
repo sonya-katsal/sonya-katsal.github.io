@@ -1,0 +1,33 @@
+.categories {
+    margin: 20px 0;
+    align-items: center;
+}
+
+.category {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    text-transform: lowercase;
+    background-color: none;
+/*    border: 5px solid orange; */
+    border-radius: 15px;
+    color: dimgray;
+    display: inline-block;
+    padding: 5px 15px;
+    margin-left: 16px;
+    text-decoration: none;
+    transition: transform .2s ease;
+}
+
+.category:hover {
+    background-color: orange;
+    transform: scale(1.03);
+}
+
+.category.active {
+    background-color: #fff;
+    border: 2px solid orange;
+}
+
+.category:first-child {
+    margin-left: 0;
+}
